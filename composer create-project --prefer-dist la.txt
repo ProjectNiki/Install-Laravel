@@ -1,1 +1,14 @@
-Install Laravel composer create-project --prefer-dist laravel/laravel blog
+Install Laravel composer create-project --prefer-dist laravel/laravel blog <- Nama Folder
+php artisan serve <- Untuk masuk localhost 
+
+Route::get('Homes', function () { 
+    return view('home');
+});
+
+Homes -> Nama Url 
+Return view -> View apa yang mau di panggil
+<!- ->
+
+@yield('dashboard') => Untuk <?= ?>
+@extends('main') => untuk engine tample =>ambil dari vile view apa
+@section('dashboard') sama @endsection() => untuk mengambil lemparan dari @yield
