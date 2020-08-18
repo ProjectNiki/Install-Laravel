@@ -9,6 +9,10 @@ Homes -> Nama Url
 Return view -> View apa yang mau di panggil
 <!- ->
 
-@yield('dashboard') => Untuk <?= ?>
-@extends('main') => untuk engine tample =>ambil dari vile view apa
-@section('dashboard') sama @endsection() => untuk mengambil lemparan dari @yield
+@yield('dashboard') => menghasilkan
+@extends('main') => meluas 
+@section('dashboard') sama @endsection() => untuk mengambil lemparan dari @yield / Bagian
+
+php artisan migrate <= Untuk refresh database
+php artisan migrate:rollback <= Untuk mengembalikan batch sebelumnya
+php artisan make:migration create_edulevels_table <= Membuat database baru lalu di refresh dengan (php artisan migrate)
