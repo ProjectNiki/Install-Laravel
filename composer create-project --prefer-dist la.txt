@@ -13,6 +13,7 @@ Return view -> View apa yang mau di panggil
 @extends('main') => meluas 
 @section('dashboard') sama @endsection() => untuk mengambil lemparan dari @yield / Bagian
 
-php artisan migrate <= Untuk refresh database
+php artisan migrate
 php artisan migrate:rollback <= Untuk mengembalikan batch sebelumnya
 php artisan make:migration create_edulevels_table <= Membuat database baru lalu di refresh dengan (php artisan migrate)
+php artisan migrate:refresh <= untuk refresh database
