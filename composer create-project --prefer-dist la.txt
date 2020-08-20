@@ -17,3 +17,5 @@ php artisan migrate
 php artisan migrate:rollback <= Untuk mengembalikan batch sebelumnya
 php artisan make:migration create_edulevels_table <= Membuat database baru lalu di refresh dengan (php artisan migrate)
 php artisan migrate:refresh <= untuk refresh database
+
+dd() <= untuk vardump
