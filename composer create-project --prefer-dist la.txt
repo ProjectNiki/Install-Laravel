@@ -1,4 +1,4 @@
-Install Laravel composer create-project --prefer-dist laravel/laravel blog <- Nama Folder
+composer create-project --prefer-dist laravel/laravel blog <- Nama Folder
 php artisan serve <- Untuk masuk localhost 
 
 Route::get('Homes', function () { 
