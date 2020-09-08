@@ -23,3 +23,5 @@ dd() <= untuk vardump
 https://github.com/Xethron/migrations-generator <= jika menggunakan database yang lama
 php artisan config:cache <= untuk hapus cache
 php artisan cache:clear <= Untuk hapus cache
+
+value="{{ old('kd_donatur') }}" <= untuk mengambil nilai yg sudah di input di validation
