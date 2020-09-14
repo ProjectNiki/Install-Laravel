@@ -26,9 +26,11 @@ php artisan cache:clear <= Untuk hapus cache
 
 value="{{ old('kd_donatur') }}" <= untuk mengambil nilai yg sudah di input di validation
 
-Route::resource('kelas', 'kelasController');
 php artisan route:list
 
 $loop->iteration	The current loop iteration (starts at 1).
-
+----
+Eloquent Laravel
+Route::resource('kelas', 'kelasController');
 compact() <= untuk passing data
+$pegawai = Pegawai::find(1); 
